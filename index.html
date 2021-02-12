@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Wireframe a HTML amb Flex Layout, Exercici 2</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="estilos.css">
+    <!-- Font -->
+   <!-- <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet"> -->
+     <!-- Font Awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+<body>
+    <!--<div class="padre"> -->
+        <header class="header">  
+            <div class=container>           
+                <nav class="nav-main"> 
+                    <!-- <div class="logo"> -->
+                    <img src="img/logo1.png" alt="logo" class="imagen-logo"> 
+                    <!-- </div> -->
+                    <ul class="nav-menu">
+                        <li>
+                            <a href="#"><i class="fas fa-caravan"></i>Inicio</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-route"></i>Rutas</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-concierge-bell"></i>Hoteles</a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fas fa-plane"></i>Vuelos</a>
+                        </li>
+                        <li>
+                            <a href="#" class="Contacto"><i class="far fa-envelope"></i>Contacto</a>
+                        </li>
+                    </ul>     
+                    <ul class="nav-menu-right"> 
+                        <li class="redes">
+                            <a href="https://facebook.com">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="redes">    
+                            <a href="https://twitter.com">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>    
+                    </ul>
+                </nav>
+            </div>    
+            <div class="texto-principal">
+                    <h1 class="titulo"><div class="sup">&#8220;</div>Disfruta de la experiencia de otros viajeros<div class="sup">&#8221;</div></h1>
+            </div>
+        </header>
+        <main>
+          <section class="section">
+            <div class="articulos"> 
+                <article class="article">
+                    <div class="foto1">
+                      <p class="fecha">5 de marzo 2019</p>
+                      <p class="categoria-articulo"><br>TRADICIONES</p>
+                    </div>
+                    <div clas="div-texto-articulo">
+                        <p class="texto-articulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus voluptatem tempore fuga! Cupiditate, optio ipsam.</p>
+                       <p><a href="#" class="leer-mas1">Leer más...</a></p>
+                    </div>
+                </article>
+                <article class="article">
+                    <div class="foto2">
+                       <p class="fecha">5 de marzo 2019</p>
+                       <p class="categoria-articulo"><br>CLIMATOLOG&Iacute;A</p>
+                    </div>
+                    <div clas="div-texto-articulo">
+                        <p class="texto-articulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus voluptatem tempore fuga! Cupiditate, optio ipsam.</p>
+                        <p><a href="#" class="leer-mas1">Leer más...</a></p>
+                     </div>
+                </article>
+                <article class="article">
+                      <div class="foto3">
+                        <p class="fecha">5 de marzo 2019</p>
+                        <p class="categoria-articulo"><br>CULTURA</p> 
+                      </div>
+                      <div clas="div-texto-articulo">
+                        <p class="texto-articulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus voluptatem tempore fuga! Cupiditate, optio ipsam.</p>
+                        <p><a href="#" class="leer-mas1">Leer más...</a></p>
+                     </div>
+                </article>
+                <article class="article">
+                    <div class="foto4">
+                        <p class="fecha">5 de marzo 2019</p>
+                        <p class="categoria-articulo"><br>HISTORIA</p> 
+                    </div>
+                    <div clas="div-texto-articulo">
+                        <p class="texto-articulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus voluptatem tempore fuga! Cupiditate, optio ipsam.</p>
+                        <p><a href="#" class="leer-mas1">Leer más...</a></p>
+                     </div>
+                </article>   
+                <nav class="navegacion">
+                     <ul class="lista-nav">
+                         <li>
+                             <a href="#">Tokio</a>
+                        </li>
+                         <li>
+                             <a href="#">Kyoto</a>
+                        </li>
+                         <li>
+                             <a href="#">Fuji</a>
+                        </li>
+                         <li>
+                            <a href="#">Nara</a>
+                        </li>
+                         <li>
+                            <a href="#">Kobe</a>
+                        </li>
+                         <li>
+                             <a href="#">Hakone</a>
+                        </li>
+                         <li>
+                             <a href="#">Kamakura</a>
+                        </li>
+                         <li>
+                            <a href="#">Nikko</a>
+                        </li>
+                         <li>
+                            <a href="#">Hiroshima</a>
+                        </li>
+                         <li>
+                             <a href="#">Himeji</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <aside class="aside">
+                <div class="publicidad">
+                    <img src="img/imagen5.jpg" alt="black-friday" class="imagen-pub">
+                    <p>Aprovecha el Black Friday <a href="#" class="leer-mas2"> Leer más <i class="fas fa-angle-double-right"></i></a></p>
+                </div>
+                <div class="publicidad">
+                    <img src="img/imagen6.jpg" alt="vuelos" class="imagen-pub">
+                    <p>Revisa ofertas de vuelos <a href="#" class="leer-mas2"> Leer más <i class="fas fa-angle-double-right"></i></a></p>
+                </div>
+            </aside>
+          </section>
+        </main>
+        <footer class="footer">
+            <nav class="pie">
+                <p>&#169; Creado por B. Usieto. Todos los derechos reservados. 2021</p>
+            </nav>
+        </footer>
+        
+    <!-- </div> -->
+
+    <!-- SCROLL REVEAL-->
+   <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
+    <!-- CUSTOM JS-->
+    <!-- <script src="main.js"></script> -->
+</body>
+</html>
